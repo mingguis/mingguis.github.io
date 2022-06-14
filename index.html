@@ -16,7 +16,7 @@
 
     $.ajax({
         type: "GET",
-        url: "cat9.csv",
+        url: "https://github.com/mingguis/mingguis.github.io/blob/main/cat9.csv",
         success: function (data) {
             $('body').append(arrayToTable(Papa.parse(data).data));
         }
